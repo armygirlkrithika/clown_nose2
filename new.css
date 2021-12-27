@@ -1,0 +1,26 @@
+.btn-info:hover {
+    background-color: aquamarine;
+    color: black;
+  }
+
+  .btn-info {
+      margin: 40px;
+  } 
+  
+canvas{
+    animation-name : shadows;
+    animation-duration: 5s ;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes shadows {
+    0%   {box-shadow: 5px 5px 50px red }
+    25%  {box-shadow: 5px 5px 50px yellow}
+    50%  {box-shadow: 5px 5px 50px blue }
+    75%  {box-shadow: 5px 5px 50px green }
+    100% {box-shadow: 5px 5px 50px pink }
+  }
+
+
+  
